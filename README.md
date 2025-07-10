@@ -64,9 +64,9 @@
 ![Tecsun M-303 front view](front-view-google-translated.png)
 
 - **[Loop Mode] Button:** FM frequency range setting, loop mode, power on/off language prompt
-- **[Store/Delete] Button**
-- **[Love/Menu] Button:** Love track function for "Favorites" storage/retrieval, recording operation, audio file extraction, set clock
-- **[Music/Recording Library] Button:** Switch music files/recording files
+- **[MEM./DEL.] Button** (Memory/Delete)
+- **[FAVORITE] Button:** Favorite track function for "Favorites" storage/retrieval, recording operation, audio file extraction, set clock
+- **[FOLDER] Button:** Switch music files/recording files
 
 ### Right Side
 
@@ -112,7 +112,7 @@ The LCD display includes the following indicators:
 - **Recording (Flash)/Recording Playback Status**
 - **Frequency Unit**
 - **Button/Knob Lock Indicator**
-- **Love Track Indicator**
+- **Favorite Track Indicator**
 - **Hands-free Call Status**
 - **Bluetooth Status**
 - **Charging Status**
@@ -136,7 +136,7 @@ Connect to 32Ω ~ 150Ω stereo earphones.
 
 > **Note!** Lower volume first, then plug in earphones and adjust volume gradually to avoid hearing damage.
 
-> **Tips:** After plugging in earphones, volume will automatically adjust to the appropriate level. After unplugging earphones, restore original volume.
+> **Tips:** After plugging in earphones, volume will automatically adjust to the appropriate level. After unplugging earphones, original volume is restored.
 
 ### Language Prompt On/Off
 1. Turn [Function Switch] to FM
@@ -180,12 +180,12 @@ Long press [Frequency/Location/Auto Store] button to auto scan and store radio f
 
 **Method 2 - Manual Store:**
 1. Turn [Tuning] knob to select frequency
-2. Short press [Store/Delete] button, channel number flashes
+2. Short press [MEM./DEL.] button, channel number flashes
 3. Turn [Tuning] knob to select channel
-4. Short press [Store/Delete] button to confirm
+4. Short press [MEM./DEL.] button to confirm
 
 > **Note:**
-> - If no storage channels selected, steps 3, 4 can be skipped. Step 2, continuously short press [Store/Delete] button twice
+> - If no storage channels selected, steps 3, 4 can be skipped. Step 2, continuously short press [MEM./DEL.] button twice
 > - If more frequency coverage required, stored frequencies won't be deleted
 
 ### Listen to Pre-stored Radio Frequencies
@@ -196,25 +196,25 @@ Long press [Frequency/Location/Auto Store] button to auto scan and store radio f
 
 **Method 1 - Select Delete:**
 1. Turn [Tuning] knob to select frequency to delete
-2. Long press [Store/Delete] button, display shows flashing dEL
-3. Short press [Store/Delete] button, selected frequency is deleted
+2. Long press [MEM./DEL.] button, display shows flashing dEL
+3. Short press [MEM./DEL.] button, selected frequency is deleted
 
 **Method 2 - Delete All Pre-stored Frequencies:**
-1. Long press [Store/Delete] button until display shows flashing P0 dEL
-2. Short press [Store/Delete] button, wait for display to show frequency, all pre-stored frequencies deleted
+1. Long press [MEM./DEL.] button until display shows flashing P0 dEL
+2. Short press [MEM./DEL.] button, wait for display to show frequency, all pre-stored frequencies deleted
 
 ### Auto-Sort Stored Frequencies (operates in OFF state)
-Long press [Music/Recording Library] button
+Long press [FOLDER] button
 
-Display shows top left corner flashing P0C], indicates stored frequency being auto-sorted. After sorting complete, displays time or temperature.
+Display shows top left corner flashing P0C, indicates stored frequency being auto-sorted. After sorting complete, displays time or temperature.
 
 ### Set Regular Listening to Radio Frequency
 1. Select frequency
-2. Short press [Store/Delete] button, channel number flashes
-3. Short press [Love/Menu] button, ♡ symbol flashes
-4. Short press [Store/Delete] button, ♡ disappears, selected frequency set
+2. Short press [MEM./DEL.] button, channel number flashes
+3. Short press [FAVORITE] button, ♡ symbol flashes
+4. Short press [MEM./DEL.] button, ♡ disappears, selected frequency set
 
-During listening, short press [Love/Menu] button to jump to "regular listening frequency" (display shows ♡). Short press [Love/Menu] button again to return to original listening frequency (♡ disappears).
+During listening, short press [FAVORITE] button to jump to "regular listening frequency" (display shows ♡). Short press [FAVORITE] button again to return to original listening frequency (♡ disappears).
 
 > **Note:** "Favorites" can only set one frequency and one audio track, set another replaces original.
 
@@ -276,15 +276,15 @@ Supports 16bit/44.1k FLAC/WAV/WMA/APE and MP3 format audio files. Player support
 > **Note:** If TF card has no audio files, or card audio files not supported format, display shows -ПО-.
 
 ### Switch Music/Recording Files Library
-Long press [Music/Recording Library] button
+Long press [FOLDER] button
 
 Language prompt "TF card mode" or "Recording playback"
 
 ### Playback Control:
 - **Select Files:** (If no files, ignored)
-  1. Short press [Music/Recording Library] button to enter file selection state, display file audio track number and file number, e.g.: 28 月 01.
+  1. Short press [FOLDER] button to enter file selection state, displays the file's audio track number and file number, e.g.: 28 月 01.
   2. Turn [◀] (volume) knob to select file
-  3. Short press [Music/Recording Library] button to exit file selection state
+  3. Short press [FOLDER] button to exit file selection state
 - **Select Audio:** Turn [Tuning] knob
 - **Pause/Play:** Short press [Frequency/Location/Auto Store] button
   In pause state, display ‖.
@@ -299,37 +299,37 @@ Exit select play state: Short press [Loop Mode] button
 
 ### Set Audio as "Favorites":
 1. Select audio
-2. Short press [Store/Delete] button, audio track number flashes
-3. Short press [Love/Menu] button, ♡ symbol flashes
-4. Short press [Store/Delete] button, ♡ disappears, selected audio set
+2. Short press [MEM./DEL.] button, audio track number flashes
+3. Short press [FAVORITE] button, ♡ symbol flashes
+4. Short press [MEM./DEL.] button, ♡ disappears, selected audio set
 
 ### Extract "Favorites":
-In TF card mode, short press [Love/Menu] button
+In TF card mode, short press [FAVORITE] button
 
 If "Favorites" set in player, display shows ♡, audio track number in file folder.
 
 ### Exit "Favorites":
-Short press [Love/Menu] button
+Short press [FAVORITE] button
 
 Return to previously played audio (♡ symbol disappears).
 
 > **Note:** Audio stored in recording library cannot be set as "Favorites".
 
 ### Recording Audio Playback:
-1. Long press [Music/Recording Library] button, player sends "Recording playback" prompt and plays recording files
-2. Short press [Music/Recording Library] button to enter file selection state
+1. Long press [FOLDER] button, player sends "Recording playback" prompt and plays recording files
+2. Short press [FOLDER] button to enter file selection state
    Display file number, e.g.: A 01.
 3. Turn [◀] knob to select recording file
    - Display "RADIO": Radio recording file
    - Display "BT": Bluetooth recording file
    - Display "MIC": Conference, interview recording file
-4. Short press [Music/Recording Library] button to exit file selection
+4. Short press [FOLDER] button to exit file selection
 5. Turn [Tuning] knob to select recording file
 
 ### Delete Audio Files (delete one by one)
 1. Select file to delete
-2. Long press [Store/Delete] button, display flashing dEL and file number
-3. Short press [Store/Delete] button, selected audio file deleted
+2. Long press [MEM./DEL.] button, display flashing dEL and file number
+3. Short press [MEM./DEL.] button, selected audio file deleted
    Repeat above steps, delete unnecessary files
 
 ### Batch Delete Audio Files:
@@ -388,8 +388,8 @@ Continuously short press [Frequency/Location/Auto Store] button twice.
 ### Set Sleep Timer:
 1. Power on
 2. Continuously short press [⬇] button twice, display flashing 🔔
-3. Turn [Tuning] knob to set timer length. (1~120 minutes, 0n selectable. If select 0n, cancel timer.)
-4. Short press [Store/Delete] button to confirm, or wait 2 seconds to auto-confirm
+3. Turn [Tuning] knob to set timer length (1~120 minutes, or On to cancel timer)
+4. Short press [MEM./DEL.] button to confirm, or wait 2 seconds to auto-confirm
    Display 🔔, sleep timer function enabled
 
 > **Note:** Sleep timer function only effective when set, automatically cancels after next power on.
@@ -417,18 +417,18 @@ This device alarm has "Radio Alarm" and "Music Alarm" two modes to choose
 1. Turn [Function Switch] to FM position
 2. Select alarm radio frequency
 3. Select alarm volume
-4. Short press [Store/Delete] button, channel number flashes
+4. Short press [MEM./DEL.] button, channel number flashes
 5. Short press [Clock] button, 🔔 flashes
-6. Short press [Store/Delete] button, 🔔 stops flashing immediately
+6. Short press [MEM./DEL.] button, 🔔 stops flashing immediately
 
 #### Music Alarm:
 1. Insert TF card with music files
 2. Turn [Function Switch] to TF position
 3. Select first music file as alarm music
 4. Select alarm volume
-5. Short press [Store/Delete] button, file number flashes
+5. Short press [MEM./DEL.] button, file number flashes
 6. Short press [Clock] button, 🔔 and 🎵 flash
-7. Short press [Storage] button, 🔔 and 🎵 stop flashing immediately
+7. Short press [MEM./DEL.] button, 🔔 and 🎵 stop flashing immediately
 
 > **Note:** After alarm, if short press [⬇] button, return to original state.
 
@@ -462,8 +462,8 @@ After full charge, battery symbol displays 🔋, charging indicator "Charge" sto
 ### Lithium Battery Safety Notice:
 1. Lithium batteries should not have explosion hazard when replaced! Only use same or equivalent lithium batteries for replacement.
 2. Batteries (battery pack or combination batteries) must not be exposed to low temperature, humid, sun exposure, fire roasting or similar overheating environments.
-3. Do not disassemble, impact, squeeze lithium batteries; severe battery drum expansion, leakage continue use.
-4. This device has built-in lithium battery. Follow navigation regulations, strictly prohibit this device in luggage check-in!
+3. Do not disassemble, impact, squeeze lithium batteries; if severe battery expansion or leakage occurs, discontinue use.
+4. This device has built-in lithium battery. Follow aviation regulations, strictly prohibit this device in luggage check-in!
 
 ---
 
@@ -472,7 +472,7 @@ After full charge, battery symbol displays 🔋, charging indicator "Charge" sto
 1. Avoid violent impact, falls and water ingress.
 2. Do not place in direct sunlight, high temperature, humid places, also not in environments below -5°C, above +45°C use or store this device.
 3. Do not spray perfume, hair spray or other liquids on radio to avoid this product being damaged by water drops or splashes. Do not place items like candles with naked flame sources on radio.
-4. Avoid using corrosive chemical liquid scrub radio surface.
+4. Avoid using corrosive chemical liquids to scrub radio surface.
 5. Do not dismantle adjustment internal parts parameters by yourself.
 
 ### Hazardous Substances in Products Names and Content
@@ -497,7 +497,7 @@ A: Battery fully discharged, charging takes about 2.5 hours. After full charge, 
 A: No, can only use 5V mobile phone chargers for charging.
 
 **Q: When selecting frequency or audio, why does rotation need to be done twice?**
-A: This is to prevent false touch causing rotation resulting in frequency hopping and audio file retrieval errors. If unfamiliar, can set yourself: In OFF mode, continuously short press [Love/Menu] button twice, display "OFF" to enable.
+A: This is to prevent false touch causing rotation resulting in frequency hopping and audio file retrieval errors. If unfamiliar, can set yourself: In OFF mode, continuously short press [FAVORITE] button twice, display "OFF" to enable.
 
 **Q: Why can't power on at FM (or: TF/BT) position, but display is off state?**
 A: Two possibilities:
@@ -511,7 +511,7 @@ A: Three possibilities:
 3. TF card damage.
 
 **Q: Why when playing audio in TF card, turn [Tuning] knob, can only switch audio files, cannot adjust volume?**
-A: Because player handles file selection state. Short press [Music/Recording Library] button, exit file selection state.
+A: Because player handles file selection state. Short press [FOLDER] button, exit file selection state.
 
 **Q: Can loop play all audio files?**
 A: No. Only supports single file loop music playback.
@@ -519,8 +519,8 @@ A: No. Only supports single file loop music playback.
 **Q: Why can't select files to play music?**
 A: This device doesn't support multi-subfolder files.
 
-**Q: After setting love music, change TF card without?**
-A: After changing TF card, or delete music from card, original settings ineffective.
+**Q: What happens to favorite music settings after changing TF card?**
+A: After changing TF card, or deleting music from card, original settings become ineffective.
 
 **Q: Why press button, no response (cannot record)?**
 A: TF card inserted? No TF card, recording device won't work.
@@ -538,7 +538,7 @@ A: No.
 If want a recording file set as "Favorites", first use computer to move this recording file from recording folder, then can set this recording audio as "Favorites".
 
 **Q: Why button/[Tuning] knob lock function ineffective?**
-A: Because player handles file selection state. Short press [Music/Recording Library] button, exit file selection state.
+A: Because player handles file selection state. Short press [FOLDER] button, exit file selection state.
 
 ---
 
@@ -593,7 +593,7 @@ Thank you for choosing Desheng products. Our company's products are sold and ser
 ### Repair Methods:
 1. Users can perform repairs at Desheng Radio Service Centers or designated repair points.
 2. Users can perform repairs at the point of purchase in the region where there are designated repair points, or no local repair at the time, please send the product by mail to our company for repair.
-3. Within the Three Guarantees validity period, postage for warranty and repair-free shipping costs, Three Guarantees validity period, shipping costs, parts and repair costs paid by the user.
+3. Within the Three Guarantees validity period, warranty repairs are free but shipping costs may apply. After the Three Guarantees validity period expires, users pay for shipping costs, parts, and repair costs.
 
 **Mailing Address:** No. 189, Rongchang Road, Dongcheng District, Dongguan City, Guangdong Province
 Desheng Company Customer Service Department
