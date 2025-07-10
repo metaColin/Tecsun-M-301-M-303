@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecsun M-301/M-303 Manual - English Translation</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .page {
+            background: white;
+            padding: 25mm 20mm;
+            margin: 0 auto 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            page-break-after: always;
+            page-break-inside: avoid;
+            max-width: 210mm;
+            box-sizing: border-box;
+        }
+        
+        /* Prevent awkward breaks */
+        h1, h2, h3 {
+            page-break-after: avoid;
+            page-break-inside: avoid;
+        }
+        
+        h1 + *, h2 + *, h3 + * {
+            page-break-before: avoid;
+        }
+        
+        ul, ol {
+            page-break-inside: avoid;
+        }
+        
+        li {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        
+        .diagram-placeholder, .diagram-note, img {
+            page-break-inside: avoid;
+            page-break-before: auto;
+            page-break-after: auto;
+        }
+        
+        /* Keep related content together */
+        p {
+            orphans: 3;
+            widows: 3;
+        }
+        
+        /* Reduce spacing for better fit */
+        @media print {
+            .page {
+                padding: 15mm;
+                min-height: auto;
+                height: auto;
+                page-break-after: always;
+            }
+            
+            h1 {
+                font-size: 22px;
+                margin: 0 0 15px 0;
+            }
+            
+            h2 {
+                font-size: 18px;
+                margin: 20px 0 10px 0;
+            }
+            
+            h3 {
+                font-size: 14px;
+                margin: 15px 0 8px 0;
+            }
+            
+            p, li {
+                font-size: 11pt;
+                line-height: 1.5;
+            }
+            
+            ul, ol {
+                margin: 8px 0;
+            }
+        }
+        
+        .page:last-child {
+            page-break-after: avoid;
+        }
+        
+        /* Page 1 - Cover */
+        .cover-page {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 200mm;
+        }
+        
+        .cover-page h1 {
+            font-size: 48px;
+            margin: 20px 0;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        
+        .cover-page h2 {
+            font-size: 32px;
+            margin: 30px 0 10px;
+            font-weight: normal;
+        }
+        
+        .cover-page h3 {
+            font-size: 20px;
+            margin: 10px 0 40px;
+            font-weight: normal;
+        }
+        
+        .manual-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 40px 0 10px;
+        }
+        
+        .instruction {
+            font-size: 14px;
+            font-style: italic;
+            margin: 10px 0 40px;
+        }
+        
+        .diagram-note {
+            background: #f9f9f9;
+            border: 2px dashed #ddd;
+            padding: 40px 20px;
+            margin: 40px 0;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .company {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: auto;
+            padding-top: 40px;
+        }
+        
+        /* Regular pages */
+        h1 {
+            font-size: 24px;
+            margin: 0 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #333;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            color: #444;
+        }
+        
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            color: #555;
+        }
+        
+        p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        .note {
+            background: #fff9c4;
+            padding: 10px 15px;
+            border-left: 4px solid #fbc02d;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        
+        .tip {
+            background: #e3f2fd;
+            padding: 10px 15px;
+            border-left: 4px solid #2196f3;
+            margin: 15px 0;
+        }
+        
+        .diagram-placeholder {
+            background: #f5f5f5;
+            border: 1px dashed #999;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .spec-table td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .page {
+                margin: 0;
+                padding: 15mm 20mm;
+                box-shadow: none;
+                page-break-after: always;
+            }
+            
+            .page:last-child {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Cover -->
+    <div class="page cover-page">
+        <h1>TECSUN</h1>
+        <h2>M-301/M-303</h2>
+        <h3>FM • Bluetooth Receiver • Music Player</h3>
+        
+        <div class="manual-title">User Manual</div>
+        <div class="instruction">(Please read carefully before use and keep properly)</div>
+        
+        <!-- <div class="diagram-note">
+            [DIAGRAM: Two radio devices shown side by side]<br>
+            Left: M-301 with dot matrix speaker grille<br>
+            Right: M-303 with horizontal line speaker grille<br>
+            Both showing digital display with "0832" and "FM 10.75 MHz"
+        </div> -->
+        <img src="https://raw.githubusercontent.com/metaColin/Tecsun-M-301-M-303/main/cover-radios.png" alt="Tecsun M-301 and M-303 radios" style="max-width: 80%; height: auto; margin: 20px auto; display: block;">
+        
+        <div class="company">Dongguan Desheng General Electric Manufacturing Co., Ltd.</div>
+    </div>
+
+    <!-- Page 2: Package Contents -->
+    <div class="page">
+        <h1>Package Contents</h1>
+        
+        <h2>M-301 Package Contents:</h2>
+        <ul>
+            <li>M-301 Radio .......................................... 1</li>
+            <li>E-50 Type (50Ω) Stereo Earphones .................... 1</li>
+            <li>USB Micro Type-B Data Cable ......................... 1</li>
+            <li>User Manual/After-sales Service Certificate .......... 1</li>
+        </ul>
+        
+        <h2>M-303 Package Contents:</h2>
+        <ul>
+            <li>M-303 Radio .......................................... 1</li>
+            <li>E-50 Type (50Ω) Stereo Earphones .................... 1</li>
+            <li>USB Micro Type-B Data Cable ......................... 1</li>
+            <li>User Manual/After-sales Service Certificate .......... 1</li>
+        </ul>
+    </div>
+
+    <!-- Page 3: Table of Contents -->
+    <div class="page">
+        <h1>Table of Contents</h1>
+        
+        <p>Button and Socket Functions ................................. 1</p>
+        <p>Display Function Instructions ............................... 3</p>
+        <p>Operations .................................................. 4</p>
+        <p style="margin-left: 30px;">1. Radio ............................................... 4</p>
+        <p style="margin-left: 30px;">2. Recording ........................................... 7</p>
+        <p style="margin-left: 30px;">3. Player ............................................. 8</p>
+        <p>4. External Computer Audio Box ............................. 10</p>
+        <p>5. Bluetooth Audio Receiver ................................ 11</p>
+        <p>6. Other Settings .......................................... 12</p>
+        <p>7. Charging ................................................ 14</p>
+        <p>8. Radio Maintenance ....................................... 15</p>
+        <p>FAQ ........................................................ 16</p>
+        <p>M-301/M-303 Basic Technical Specifications ................. 18</p>
+        
+        <p style="margin-top: 50px;">After-sales Service Certificate</p>
+    </div>
+
+    <!-- Page 4-5: Button and Socket Functions -->
+    <div class="page">
+        <h1>Button and Socket Functions</h1>
+        
+        <h2>Left Side</h2>
+        
+        <img src="left-side-view-google-translated.png" alt="Left side of device showing function switch, USB socket, and earphone jack" style="max-width: 100%; height: auto; margin: 20px 0;">
+        
+        <ul>
+            <li><strong>Function Switch:</strong>
+                <ul>
+                    <li>OFF: Power off</li>
+                    <li>FM: Radio</li>
+                    <li>TF: Play TF card audio</li>
+                    <li>BT: Bluetooth connection</li>
+                </ul>
+            </li>
+            <li><strong>USB Micro Type-B Socket:</strong> For digital audio input and charging</li>
+            <li><strong>Stereo Earphone Jack</strong> (32Ω ~ 150Ω)</li>
+        </ul>
+        
+        <h2>Front Panel</h2>
+        
+        <img src="front-view-google-translated.png" alt="Front panel showing control buttons" style="max-width: 100%; height: auto; margin: 20px 0;">
+        
+        <ul>
+            <li><strong>[Loop Mode] Button:</strong> FM frequency range setting, loop mode, power on/off language prompt</li>
+            <li><strong>[Store/Delete] Button</strong></li>
+            <li><strong>[Love/Menu] Button:</strong> Love track function for "Love Festival" storage/retrieval, recording operation, audio file extraction, set clock</li>
+            <li><strong>[Music/Recording Library] Button:</strong> Switch music files/recording files</li>
+        </ul>
+    </div>
+
+    <!-- Page 5: Right Side Controls -->
+    <div class="page">
+        <h2>Right Side</h2>
+        
+        <img src="right-side-view-google-translated.png" alt="Right side of device showing various controls and card slot" style="max-width: 100%; height: auto; margin: 20px 0;">
+        
+        <ul>
+            <li><strong>[Mic]:</strong> Microphone (on front panel)</li>
+            <li><strong>[Display Mode] Button:</strong>
+                <ul>
+                    <li>Short press: Switch display (clock time/temperature/current time/storage location/audio track number)</li>
+                    <li>Long press: Lock/unlock buttons and [tuning] knob</li>
+                </ul>
+            </li>
+            <li><strong>[Frequency/Location/Auto Store]</strong> (Multi-function button):
+                <ul>
+                    <li>Play/pause, frequency/location, auto store, set clock</li>
+                </ul>
+            </li>
+            <li><strong>[Clock] Button:</strong> Settings, start/cancel clock</li>
+            <li><strong>[Tuning] Knob</strong> (Multi-function knob):
+                <ul>
+                    <li>Select: Frequency, storage location, audio files</li>
+                    <li>Adjust clock (hours)</li>
+                </ul>
+            </li>
+            <li><strong>System Reset Switch</strong> (inside hole)</li>
+            <li><strong>[Storage Card] Slot</strong> (Supports up to 128GB TF card)</li>
+            <li><strong>[◀] Button</strong> (Multi-function knob):
+                <ul>
+                    <li>Adjust volume, select audio files</li>
+                    <li>Adjust clock (minutes)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Page 6: Display Function Instructions -->
+    <div class="page">
+        <h1>Display Function Instructions</h1>
+        
+        <img src="lcd-display-google-translated.png" alt="LCD display showing all indicators and status icons" style="max-width: 100%; height: auto; margin: 20px 0;">
+        
+        <ul>
+            <li><strong>Battery Level Indicator</strong></li>
+            <li><strong>Clock Start Indicator</strong></li>
+            <li><strong>Clock Alarm Indicator</strong></li>
+            <li><strong>Recording/Playback Indicator:</strong>
+                <ul>
+                    <li>MIC: Microphone recording/playback</li>
+                    <li>RADIO: Radio recording/playback</li>
+                    <li>BT: Bluetooth recording/playback</li>
+                </ul>
+            </li>
+            <li><strong>Clock (AL)/Time/Temperature/Channel/Audio Track Number/Charging Time Display Area</strong></li>
+            <li><strong>Time/Frequency/Recording Time Length/File Selection Playback Status Display Area</strong></li>
+            <li><strong>Stereo Status</strong></li>
+            <li><strong>FM Radio Status</strong></li>
+            <li><strong>TF Card Playback Status</strong></li>
+            <li><strong>Single Track Loop Status</strong></li>
+            <li><strong>Recording (Flash)/Recording Playback Status</strong></li>
+            <li><strong>Frequency Unit</strong></li>
+            <li><strong>Button/Knob Lock Indicator</strong></li>
+            <li><strong>Love Track Indicator</strong></li>
+            <li><strong>Hands-free Call Status</strong></li>
+            <li><strong>Bluetooth Status</strong></li>
+            <li><strong>Charging Status</strong></li>
+        </ul>
+    </div>
+
+    <!-- Page 7: Operations -->
+    <div class="page">
+        <h1>Operations</h1>
+        
+        <h2>Power On/Off</h2>
+        <p>Turn [Function Switch] to desired function:</p>
+        <ul>
+            <li>FM: FM radio tuning</li>
+            <li>TF: Play TF card audio</li>
+            <li>BT: Bluetooth connection</li>
+            <li>OFF: Power off</li>
+        </ul>
+        
+        <h2>Volume Adjustment</h2>
+        <p>Turn [◀] knob to adjust volume.</p>
+        
+        <h2>Using Earphones</h2>
+        <p>Connect to 32Ω ~ 150Ω stereo earphones.</p>
+        
+        <div class="note">
+            <strong>Note!</strong> Lower volume first, then plug in earphones and adjust volume gradually to avoid hearing damage.
+        </div>
+        
+        <div class="tip">
+            <strong>Tips:</strong> After plugging in earphones, volume will automatically adjust to the appropriate level. After unplugging earphones, restore original volume.
+        </div>
+        
+        <h2>Language Prompt On/Off</h2>
+        <ol>
+            <li>Turn [Function Switch] to FM</li>
+            <li>Long press [Loop Mode] button
+                <ul>
+                    <li>Display On: Language prompt on</li>
+                    <li>Display OFF: Language prompt off</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Page 8: Radio Operations -->
+    <div class="page">
+        <h2>1. Radio</h2>
+        
+        <div class="note">
+            This device operates FM radio antenna wirelessly.
+        </div>
+        
+        <h3>Frequency Range Setting (operates in OFF mode):</h3>
+        <ol>
+            <li>Long press [Loop Mode] button, then repeatedly short press (or turn [Tuning] knob) to select frequency range. Display shows 64, 76, 87, 88, indicating frequency ranges: 64~108MHz, 76~108MHz, 87~108MHz, 88~108MHz</li>
+            <li>After selecting appropriate frequency range, wait 2 seconds to auto-confirm</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Note:</strong> Temperature unit - At 88~108MHz frequency range, external temperature is Fahrenheit (°F), others are Celsius (°C).
+        </div>
+        
+        <h3>Radio Mode Entry</h3>
+        <p>Turn [Function Switch] to FM</p>
+        
+        <h3>Select Frequency</h3>
+        <p>Turn [Tuning] knob</p>
+        
+        <h3>VF/VM Switch</h3>
+        <p>Short press [Frequency/Location/Auto Store] button</p>
+        <p>This device searches for radio frequencies in two ways: Tuning Frequency (VF) and Memory Storage Frequency (VM).</p>
+        
+        <p>After short pressing [Frequency/Location/Auto Store] button:</p>
+        <ul>
+            <li>When frequency flashes, in VF state</li>
+            <li>Display shows top left corner channel number flash, in VM state</li>
+        </ul>
+        
+        <div class="tip">
+            <strong>Note:</strong> If no storage frequency, entering VM state, channel number shows "P0--", automatically returns to VF state.
+        </div>
+    </div>
+
+    <!-- Page 8: Radio Operations Continued -->
+    <div class="page">
+        <h3>Storage Frequency (operates in VF state)</h3>
+        
+        <p><strong>Method 1 - Auto Store:</strong></p>
+        <p>Long press [Frequency/Location/Auto Store] button to auto scan and store radio frequencies.</p>
+        
+        <p><strong>Method 2 - Manual Store:</strong></p>
+        <ol>
+            <li>Turn [Tuning] knob to select frequency</li>
+            <li>Short press [Store/Delete] button, channel number flashes</li>
+            <li>Turn [Tuning] knob to select channel</li>
+            <li>Short press [Store/Delete] button to confirm</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Note:</strong>
+            <ul>
+                <li>If no storage channels selected, steps 3, 4 can be skipped. Step 2, continuously short press [Store/Delete] button twice</li>
+                <li>If more frequency coverage required, stored frequencies won't be deleted</li>
+            </ul>
+        </div>
+        
+        <h3>Listen to Pre-stored Radio Frequencies</h3>
+        <ol>
+            <li>Short press [Frequency/Location/Auto Store] button to enter VM state</li>
+            <li>Turn [Tuning] knob to select frequency</li>
+        </ol>
+    </div>
+
+    <!-- Page 9: Radio Operations Continued -->
+    <div class="page">
+        <h3>Delete Pre-stored Frequencies (operates in VM state)</h3>
+        
+        <p><strong>Method 1 - Select Delete:</strong></p>
+        <ol>
+            <li>Turn [Tuning] knob to select frequency to delete</li>
+            <li>Long press [Store/Delete] button, display shows flashing dEL</li>
+            <li>Short press [Store/Delete] button, selected frequency is deleted</li>
+        </ol>
+        
+        <p><strong>Method 2 - Delete All Pre-stored Frequencies:</strong></p>
+        <ol>
+            <li>Long press [Store/Delete] button until display shows flashing P0 dEL</li>
+            <li>Short press [Store/Delete] button, wait for display to show frequency, all pre-stored frequencies deleted</li>
+        </ol>
+        
+        <h3>Auto-Sort Stored Frequencies (operates in OFF state)</h3>
+        <p>Long press [Music/Recording Library] button</p>
+        <p>Display shows top left corner flashing P0C], indicates stored frequency being auto-sorted. After sorting complete, displays time or temperature.</p>
+        
+        <h3>Set Regular Listening to Radio Frequency</h3>
+        <ol>
+            <li>Select frequency</li>
+            <li>Short press [Store/Delete] button, channel number flashes</li>
+            <li>Short press [Love/Menu] button, ♡ symbol flashes</li>
+            <li>Short press [Store/Delete] button, ♡ disappears, selected frequency set</li>
+        </ol>
+        
+        <p>During listening, short press [Love/Menu] button to jump to "regular listening frequency" (display shows ♡). Short press [Love/Menu] button again to return to original listening frequency (♡ disappears).</p>
+        
+        <div class="tip">
+            <strong>Note:</strong> "Love Festival" can only set one frequency and one audio track, set another replaces original.
+        </div>
+        
+        <p>When using earphones for radio, display shows (♫♫), indicates radio broadcasting stereo. If radio uses mono broadcast, or signal weak, stereo broadcast naturally switches to mono broadcast, but signal weak, (♫♫) won't display. When using speaker for radio, defaults to mono, (♫♫) won't display.</p>
+    </div>
+
+    <!-- Page 10: Recording -->
+    <div class="page">
+        <h2>2. Recording</h2>
+        
+        <p>M-301, M-303 have recording function:</p>
+        <ul>
+            <li>In radio mode: Records radio programs</li>
+            <li>In player mode: Uses built-in microphone for recording</li>
+            <li>In Bluetooth mode: Records audio from devices transmitting audio</li>
+        </ul>
+        
+        <div class="note">
+            <strong>Note:</strong>
+            <ol>
+                <li>Must insert TF card before recording</li>
+                <li>In Bluetooth mode, can only record audio from Bluetooth transmitting devices, cannot record phone calls</li>
+            </ol>
+        </div>
+        
+        <h3>Recording</h3>
+        <p>Long press [Recording/Pause/Stop] button</p>
+        <p>Display shows recording time and flashing "REC"</p>
+        
+        <div class="tip">
+            <strong>Note:</strong>
+            <ol>
+                <li>Recording radio programs displays "RADIO"<br>
+                    Using microphone recording displays "MIC"<br>
+                    Recording Bluetooth audio displays "BT"</li>
+                <li>Microphone recording volume differs from audio source volume</li>
+                <li>During microphone recording, do not rotate knob to avoid noise</li>
+                <li>Each recording file maximum length 1 hour. If recording exceeds 1 hour, automatically generates another recording file</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Page 11: Recording Controls & Player -->
+    <div class="page">
+        <h3>Pause Recording</h3>
+        <p>Short press [Recording/Pause/Stop] button</p>
+        <p>Recording paused, "REC" stops flashing, recording time stops</p>
+        
+        <h3>Continue Recording</h3>
+        <p>Short press [Recording/Pause/Stop] button again</p>
+        <p>Recording continues, "REC" flashes, recording time runs</p>
+        
+        <h3>Stop Recording</h3>
+        <p>Long press [Recording/Pause/Stop] button</p>
+        <p>Stop recording and play recording just recorded</p>
+        
+        <h3>Exit Recording</h3>
+        <p>After stopping recording, short press [Recording/Pause/Stop] button</p>
+        
+        <h2>3. Player</h2>
+        
+        <p>Supports 16bit/44.1k FLAC/WAV/WMA/APE and MP3 format audio files. Player supports single track repeat.</p>
+        
+        <ol>
+            <li>Insert TF card with audio into [Storage Card] slot</li>
+            <li>Turn [Function Switch] to "TF" position. Display shows [ᐊ], starts playing audio in card</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Note:</strong> If TF card has no audio files, or card audio files not supported format, display shows -ПО-.
+        </div>
+        
+        <h3>Switch Music/Recording Files Library</h3>
+        <p>Long press [Music/Recording Library] button</p>
+        <p>Language prompt "TF card mode" or "Recording playback"</p>
+    </div>
+
+    <!-- Page 11: Player -->
+    <div class="page">
+        <h3>Playback Control:</h3>
+        <ul>
+            <li><strong>Select Files:</strong> (If no files, ignored)
+                <ol>
+                    <li>Short press [Music/Recording Library] button to enter file selection state, display file audio track number and file number, e.g.: 28 月 01.</li>
+                    <li>Turn [◀] (volume) knob to select file</li>
+                    <li>Short press [Music/Recording Library] button to exit file selection state</li>
+                </ol>
+            </li>
+            <li><strong>Select Audio:</strong> Turn [Tuning] knob</li>
+            <li><strong>Pause/Play:</strong> Short press [Frequency/Location/Auto Store] button<br>
+                In pause state, display ‖.</li>
+            <li><strong>Single Track Loop Play:</strong> Long press [Loop Mode] button. Display ①, enters single track loop play state<br>
+                Exit single track loop play state: Long press [Loop Mode] button. ① disappears.</li>
+            <li><strong>Select Loop Play:</strong>
+                <ol>
+                    <li>When playing fragment start required, short press [Loop Mode] button, display shows A--.</li>
+                    <li>At fragment end, short press [Loop Mode] button. Display A--B.</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Page 12: Player Continued -->
+    <div class="page">
+        <h3>Select Audio Fragment for Repeat Play</h3>
+        <p>Exit select play state: Short press [Loop Mode] button</p>
+        
+        <h3>Set Audio as "Love Festival":</h3>
+        <ol>
+            <li>Select audio</li>
+            <li>Short press [Store/Delete] button, audio track number flashes</li>
+            <li>Short press [Love/Menu] button, ♡ symbol flashes</li>
+            <li>Short press [Store/Delete] button, ♡ disappears, selected audio set</li>
+        </ol>
+        
+        <h3>Extract "Love Festival":</h3>
+        <p>In TF card mode, short press [Love/Menu] button</p>
+        <p>If "Love Festival" set in player, display shows ♡, audio track number in file folder.</p>
+        
+        <h3>Exit "Love Festival":</h3>
+        <p>Short press [Love/Menu] button</p>
+        <p>Return to previously played audio (♡ symbol disappears).</p>
+        
+        <div class="tip">
+            <strong>Note:</strong> Audio stored in recording library cannot be set as "Love Festival".
+        </div>
+        
+        <h3>Recording Audio Playback:</h3>
+        <ol>
+            <li>Long press [Music/Recording Library] button, player sends "Recording playback" prompt and plays recording files</li>
+            <li>Short press [Music/Recording Library] button to enter file selection state<br>
+                Display file number, e.g.: A 01.</li>
+            <li>Turn [◀] knob to select recording file<br>
+                Display "RADIO": Radio recording file<br>
+                Display "BT": Bluetooth recording file<br>
+                Display "MIC": Conference, interview recording file</li>
+            <li>Short press [Music/Recording Library] button to exit file selection</li>
+            <li>Turn [Tuning] knob to select recording file</li>
+        </ol>
+    </div>
+
+    <!-- Page 13: Delete Audio Files -->
+    <div class="page">
+        <h3>Delete Audio Files (delete one by one)</h3>
+        <ol>
+            <li>Select file to delete</li>
+            <li>Long press [Store/Delete] button, display flashing dEL and file number</li>
+            <li>Short press [Store/Delete] button, selected audio file deleted<br>
+                Repeat above steps, delete unnecessary files</li>
+        </ol>
+        
+        <h3>Batch Delete Audio Files:</h3>
+        <ol>
+            <li>Power on</li>
+            <li>Connect to computer via USB Micro Type-B data cable and player</li>
+            <li>Enter computer "removable disk" related files or folders<br>
+                Including:
+                <ul>
+                    <li>RECORDB: Bluetooth recording files</li>
+                    <li>RECORDM: Conference, interview recording files</li>
+                    <li>RECORDF: Radio recording files</li>
+                </ul>
+            </li>
+            <li>Select files and delete</li>
+        </ol>
+        
+        <h2>4. External Computer Audio Box</h2>
+        
+        <h3>Connect to Computer:</h3>
+        <ol>
+            <li>Power on</li>
+            <li>Connect computer and player with USB Micro Type-B data cable. Player automatically enters "PC mode", displays PC.</li>
+            <li>Turn on computer player software and play audio</li>
+        </ol>
+        
+        <h3>Playback Control:</h3>
+        <ul>
+            <li><strong>Volume adjustment:</strong> Turn [◀] knob</li>
+            <li><strong>Select audio:</strong> Turn [Tuning] knob</li>
+            <li><strong>Pause/Play:</strong> Short press [Frequency/Location/Auto Store] button</li>
+        </ul>
+    </div>
+
+    <!-- Page 14: Bluetooth Audio Receiver -->
+    <div class="page">
+        <h2>5. Bluetooth Audio Receiver</h2>
+        
+        <h3>Bluetooth Pairing:</h3>
+        <ol>
+            <li>Turn [Function Switch] to BT position, display ----.</li>
+            <li>Search "TECSUN M-301" (or "TECSUN M-303") in Bluetooth device list and pair.<br>
+                After successful pairing, display shows [·], can receive audio from Bluetooth device.</li>
+        </ol>
+        
+        <h3>Playback Control:</h3>
+        <ul>
+            <li><strong>Volume adjustment:</strong> Turn [◀] knob</li>
+            <li><strong>Select audio:</strong> Turn [Tuning] knob</li>
+            <li><strong>Pause/Play:</strong> Short press [Frequency/Location/Auto Store] button</li>
+        </ul>
+        
+        <h3>Hands-free Calling</h3>
+        <p>If paired with Bluetooth device is mobile phone, when call comes in, player stops playing audio and reports phone number via voice. Display shows HF and phone symbol 📞.</p>
+        
+        <div class="tip">
+            <strong>Note:</strong> This device doesn't support WeChat voice calls.
+        </div>
+        
+        <ul>
+            <li><strong>Answer call:</strong> Short press [☎] button</li>
+            <li><strong>End call:</strong> Short press [☎] button</li>
+        </ul>
+        
+        <h3>Cancel Pairing:</h3>
+        <p>Continuously short press [Frequency/Location/Auto Store] button twice.</p>
+    </div>
+
+    <!-- Page 15: Other Settings -->
+    <div class="page">
+        <h2>6. Other Settings</h2>
+        
+        <h3>Set Clock:</h3>
+        <ol>
+            <li>Power on</li>
+            <li>Continuously short press [⬇] button twice, display flashing 🔔</li>
+            <li>Turn [Tuning] knob to set clock length. (1~120 minutes, 0n selectable. If select 0n, cancel clock.)</li>
+            <li>Short press [Store/Delete] button to confirm, or wait 2 seconds to auto-confirm<br>
+                Display 🔔, clock function enabled</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Note:</strong> Clock function only effective when set, automatically cancels after next power on.
+        </div>
+        
+        <h3>Set Clock (This device uses 24-hour format)</h3>
+        <ol>
+            <li>Power off</li>
+            <li>Long press [Frequency/Location/Auto Store] button, clock "hour" position flashes</li>
+            <li>Turn [Tuning] knob to adjust "hour"<br>
+                Turn [◀] knob to adjust "minute"</li>
+            <li>Short press [Frequency/Location/Auto Store] button to confirm</li>
+        </ol>
+        
+        <h3>Set Alarm Clock:</h3>
+        <ol>
+            <li>Power off</li>
+            <li>Long press [Clock] button, display top right corner clock "hour" position flashes</li>
+            <li>Turn [Tuning] knob to adjust "hour"<br>
+                Turn [◀] knob to adjust "minute"</li>
+            <li>Short press [Clock] button to confirm, display shows flashing alarm clock</li>
+            <li>Turn [Tuning] knob to set alarm clock ring time (1~60 minutes)</li>
+            <li>Short press [Clock] button to confirm. Display alarm clock symbol 🔔, alarm clock starts</li>
+        </ol>
+    </div>
+
+    <!-- Page 16: Alarm Clock Modes -->
+    <div class="page">
+        <h3>Alarm Clock Mode</h3>
+        <p>This device alarm has "Radio Alarm" and "Music Alarm" two modes to choose</p>
+        
+        <h4>Radio Alarm:</h4>
+        <ol>
+            <li>Turn [Function Switch] to FM position</li>
+            <li>Select alarm radio frequency</li>
+            <li>Select alarm volume</li>
+            <li>Short press [Store/Delete] button, channel number flashes</li>
+            <li>Short press [Clock] button, 🔔 flashes</li>
+            <li>Short press [Store/Delete] button, 🔔 stops flashing immediately</li>
+        </ol>
+        
+        <h4>Music Alarm:</h4>
+        <ol>
+            <li>Insert TF card with music files</li>
+            <li>Turn [Function Switch] to TF position</li>
+            <li>Select first music file as alarm music</li>
+            <li>Select alarm volume</li>
+            <li>Short press [Store/Delete] button, file number flashes</li>
+            <li>Short press [Clock] button, 🔔 and 🎵 flash</li>
+            <li>Short press [Storage] button, 🔔 and 🎵 stop flashing immediately</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Note:</strong> After alarm, if short press [⬇] button, return to original state.
+        </div>
+        
+        <h3>Stop Alarm Function</h3>
+        <p>Short press [Clock] button, 🔔 disappears immediately.</p>
+        
+        <h3>Display Mode</h3>
+        <p>Repeatedly short press [Display Mode] button.<br>
+        Display shows current time, alarm clock time, temperature, frequency (or audio track number).</p>
+        
+        <h3>Button and [Tuning] Knob Lock and Unlock</h3>
+        <p>Long press [Display Mode] button</p>
+        <ul>
+            <li>Display 🔒, button and [Tuning] knob function locked</li>
+            <li>🔒 disappears, button and [Tuning] knob function restored</li>
+        </ul>
+    </div>
+
+    <!-- Page 17: System Reset -->
+    <div class="page">
+        <h3>System Reset:</h3>
+        <p>If "crash" phenomenon occurs, use toothpick or paper clip to press [System Reset Switch], system will reset.</p>
+        
+        <h2>7. Charging</h2>
+        
+        <p>When battery symbol displays 🔋, indicates low battery, please charge promptly.</p>
+        
+        <p>Connect USB Micro Type-B cable to 5V DC charger into device side USB socket, can charge built-in polymer lithium battery. During charging, display top shows next charging time timer, charging indicator "Charge" flashes.</p>
+        
+        <p>After full charge, battery symbol displays 🔋, charging indicator "Charge" stops flashing.</p>
+        
+        <div class="note">
+            <strong>Note!</strong> Power adapters used for charging/power supply should be purchased and used by users, obtain CCC certification, and meet standard required power adapters.
+        </div>
+        
+        <h3>Lithium Battery Safety Notice:</h3>
+        <ol>
+            <li>Lithium batteries should not have explosion hazard when replaced! Only use same or equivalent lithium batteries for replacement.</li>
+            <li>Batteries (battery pack or combination batteries) must not be exposed to low temperature, humid, sun exposure, fire roasting or similar overheating environments.</li>
+            <li>Do not disassemble, impact, squeeze lithium batteries; severe battery drum expansion, leakage continue use.</li>
+            <li>This device has built-in lithium battery. Follow navigation regulations, strictly prohibit this device in luggage check-in!</li>
+        </ol>
+    </div>
+
+    <!-- Page 18: Radio Maintenance -->
+    <div class="page">
+        <h2>8. Radio Maintenance:</h2>
+        
+        <ol>
+            <li>Avoid violent impact, falls and water ingress.</li>
+            <li>Do not place in direct sunlight, high temperature, humid places, also not in environments below -5°C, above +45°C use or store this device.</li>
+            <li>Do not spray perfume, hair spray or other liquids on radio to avoid this product being damaged by water drops or splashes. Do not place items like candles with naked flame sources on radio.</li>
+            <li>Avoid using corrosive chemical liquid scrub radio surface.</li>
+            <li>Do not dismantle adjustment internal parts parameters by yourself.</li>
+        </ol>
+        
+        <h3>Hazardous Substances in Products Names and Content</h3>
+        
+        <img src="hazardous-substances-table-google-translated.png" alt="Table showing hazardous substances compliance" style="max-width: 100%; height: auto; margin: 20px 0;">
+        
+        <p><strong>Notes:</strong></p>
+        <ol>
+            <li>"O" indicates hazardous substance content in all homogeneous materials below SJ/T11363-2006 standard limit requirements.</li>
+            <li>"X" indicates hazardous substance content in at least one homogeneous material exceeds SJ/T11363-2006 standard limit requirements.</li>
+            <li>Printed circuit board components include printed circuit boards and their own polymer components, IC and connectors and plug-in components.</li>
+        </ol>
+        
+        <p>⑩ This product environmental protection use period is 10 years. Environmental protection refers to hazardous substance content in products under normal use conditions won't occur external leakage, won't cause environmental pollution or cause serious harm to users, property.</p>
+    </div>
+
+    <!-- Page 19-20: FAQ -->
+    <div class="page">
+        <h2>FAQ</h2>
+        
+        <p><strong>Q: How long does charging take? How long can full battery be used?</strong><br>
+        A: Battery fully discharged, charging takes about 2.5 hours. After full charge, if using speaker playback, moderate volume playback, can continuously work about 17 hours.</p>
+        
+        <p><strong>Q: Can I use commercially available 9V/12V mobile phone quick chargers to charge?</strong><br>
+        A: No, can only use 5V mobile phone chargers for charging.</p>
+        
+        <p><strong>Q: When selecting frequency or audio, why does rotation need to be done twice?</strong><br>
+        A: This is to prevent false touch causing rotation resulting in frequency hopping and audio file retrieval errors. If unfamiliar, can set yourself: In OFF mode, continuously short press [Love/Menu] button twice, display "OFF" to enable.</p>
+        
+        <p><strong>Q: Why can't power on at FM (or: TF/BT) position, but display is off state?</strong><br>
+        A: Two possibilities:<br>
+        1. Excessive power consumption during playback, auto power off. Please charge promptly.<br>
+        2. Used timer shutdown function once, radio auto powered off. Press function switch, can restore.</p>
+        
+        <p><strong>Q: Why after inserting TF card, display shows -ПО-?</strong><br>
+        A: Three possibilities:<br>
+        1. No audio files in card.<br>
+        2. This device doesn't support card audio file format.<br>
+        3. TF card damage.</p>
+        
+        <p><strong>Q: Why when playing audio in TF card, turn [Tuning] knob, can only switch audio files, cannot adjust volume?</strong><br>
+        A: Because player handles file selection state. Short press [Music/Recording Library] button, exit file selection state.</p>
+    </div>
+
+    <!-- Page 20: FAQ Continued -->
+    <div class="page">
+        <p><strong>Q: Can loop play all audio files?</strong><br>
+        A: No. Only supports single file loop music playback.</p>
+        
+        <p><strong>Q: Why can't select files to play music?</strong><br>
+        A: This device doesn't support multi-subfolder files.</p>
+        
+        <p><strong>Q: After setting love music, change TF card without?</strong><br>
+        A: After changing TF card, or delete music from card, original settings ineffective.</p>
+        
+        <p><strong>Q: Why press button, no response (cannot record)?</strong><br>
+        A: TF card inserted? No TF card, recording device won't work.</p>
+        
+        <p><strong>Q: Recording time length limited?</strong><br>
+        A: Default each recording file time maximum 1 hour. If recording exceeds 1 hour, device automatically generates another recording file.</p>
+        
+        <p><strong>Q: TF card 1GB capacity, can store recording how long?</strong><br>
+        A: Bluetooth recording, 1GB can store recording about 16 hours.<br>
+        Radio recording, 1GB can store recording about 25 hours.<br>
+        Microphone recording, 1GB can store recording about 35 hours.</p>
+        
+        <p><strong>Q: Can recording files be set as "Love Festival"?</strong><br>
+        A: No.<br>
+        If want a recording file set as "Love Festival", first use computer to move this recording file from recording folder, then can set this recording audio as "Love Festival".</p>
+        
+        <p><strong>Q: Why button/[Tuning] knob lock function ineffective?</strong><br>
+        A: Because player handles file selection state. Short press [Music/Recording Library] button, exit file selection state.</p>
+    </div>
+
+    <!-- Page 21: Technical Specifications -->
+    <div class="page">
+        <h1>M-301/M-303 Basic Technical Specifications</h1>
+        
+        <table class="spec-table" style="font-size: 10pt; line-height: 1.3;">
+            <tr>
+                <td style="padding: 6px;">1. Tuning Frequency Range:</td>
+                <td style="padding: 6px;">64~108MHz (Configurable)</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">2. Tuning Sensitivity (S/N=30dB):</td>
+                <td style="padding: 6px;">Better than 3μV</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">3. Tuning Selectivity:</td>
+                <td style="padding: 6px;">&gt;60dB</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">4. Memory Storage Rate:</td>
+                <td style="padding: 6px;">100</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">5. Supported Audio Formats:</td>
+                <td style="padding: 6px;">16bit/44.1k FLAC/WAV/WMA/APE and MP3</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">6. TF Card Specification:</td>
+                <td style="padding: 6px;">Maximum support 128GB</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">7. Recording Format:</td>
+                <td style="padding: 6px;">FM and Mic: Mono WAV<br>BT: Stereo MP3</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">8. Bluetooth Version:</td>
+                <td style="padding: 6px;">BT 5.0</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">9. Stereo Earphone Impedance:</td>
+                <td style="padding: 6px;">32~150Ω</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">10. Speaker:</td>
+                <td style="padding: 6px;">16Ω, 0.5W</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">11. Maximum Operating Current:</td>
+                <td style="padding: 6px;">260mA</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">12. Quiescent Current (Tuning):</td>
+                <td style="padding: 6px;">&lt;50mA</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">13. Standby Current:</td>
+                <td style="padding: 6px;">&lt;100μA</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">14. Power Supply:</td>
+                <td style="padding: 6px;">3.7V (Built-in polymer lithium battery)<br>Or: External DC 5V</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">15. Charger/Power Adapter<br>(Purchased Separately):</td>
+                <td style="padding: 6px;">5V — 500mA</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">16. Physical Dimensions<br>(Without Strap):</td>
+                <td style="padding: 6px;">125 × 62 × 13 mm</td>
+            </tr>
+            <tr>
+                <td style="padding: 6px;">17. Net Weight:</td>
+                <td style="padding: 6px;">Approximately 92g (M-301)<br>93g (M-303)</td>
+            </tr>
+        </table>
+        
+        <p style="margin-top: 20px;"><strong>Product Standard Number:</strong> Q/DS 1</p>
+        
+        <div style="text-align: right; margin-top: 15px; padding: 8px; border: 1px solid #ccc;">
+            <small>Certificate<br>This product has passed inspection and is qualified</small>
+        </div>
+    </div>
+
+    <!-- Page 22: After-sales Service Certificate Cover -->
+    <div class="page">
+        <div style="text-align: center; margin-top: 100px;">
+            <h1 style="border: none; font-size: 36px;">TECSUN</h1>
+            <h2 style="font-size: 28px; margin: 40px 0;">Desheng Radio</h2>
+            
+            <div style="margin: 80px 0;">
+                <h2 style="font-size: 32px;">Three Guarantees Certificate</h2>
+                <h2 style="font-size: 32px; margin-top: 30px;">After-Sales Service Certificate</h2>
+            </div>
+            
+            <div style="margin-top: 100px;">
+                <p style="font-size: 18px; font-weight: bold;">Dongguan Desheng General Electric Manufacturing Co., Ltd.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 23: Dear User Letter -->
+    <div class="page">
+        <h2>Dear User:</h2>
+        
+        <p>Thank you for choosing Desheng products. Our company's products are sold and serviced through our Three Guarantees service. Under normal use, if quality issues or malfunctions occur with the product, you can enjoy the following services with your receipt or device ID number:</p>
+        
+        <ol>
+            <li>Within 7 days from purchase date, if product malfunctions occur, users can choose to return, exchange, or repair at the point of purchase.</li>
+            
+            <li>From day 8 to day 15 from purchase date, if product malfunctions occur, users can choose to exchange or repair at the point of purchase.</li>
+            
+            <li>Within the Three Guarantees validity period, if product malfunctions occur, users enjoy free repair service.</li>
+            
+            <li>Complete device has a Three Guarantees validity period of six months.</li>
+        </ol>
+        
+        <h3>The following situations are not covered by the Three Guarantees:</h3>
+        <ol>
+            <li>Unauthorized repair, disassembly, or modification causing malfunction.</li>
+            <li>Use of the product not in accordance with the manual requirements, resulting in damage to maintenance, care.</li>
+            <li>Damage caused by improper use by the user, such as dropping, squeezing, liquid immersion, etc.</li>
+            <li>Exceeding the Three Guarantees validity period.</li>
+            <li>Damage caused by force majeure.</li>
+            <li>Accessories such as chassis and earphones are not provided free warranty repair.</li>
+        </ol>
+        
+        <h3>Repair Methods:</h3>
+        <ol>
+            <li>Users can perform repairs at Desheng Radio Service Centers or designated repair points.</li>
+            <li>Users can perform repairs at the point of purchase in the region where there are designated repair points, or no local repair at the time, please send the product by mail to our company for repair.</li>
+            <li>Within the Three Guarantees validity period, postage for warranty and repair-free shipping costs, Three Guarantees validity period, shipping costs, parts and repair costs paid by the user.</li>
+        </ol>
+    </div>
+
+    <!-- Page 24: Company Contact Information -->
+    <div class="page">
+        <p><strong>Mailing Address:</strong> No. 189, Rongchang Road, Dongcheng District, Dongguan City, Guangdong Province<br>
+        Desheng Company Customer Service Department</p>
+        
+        <p><strong>Postal Code:</strong> 523071</p>
+        
+        <p style="margin-top: 30px;">Our company has received the package, within a week for repair and return to users.</p>
+        
+        <h2 style="margin-top: 50px;">Desheng Appliance Service Points</h2>
+        
+        <h3>Dongguan Desheng Radio Service Center</h3>
+        <p>Phone: 0769-2316 7118<br>
+        Address: No. 189, Rongchang Road, Dongcheng District, Dongguan City</p>
+        
+        <h3>Beijing Dayue Electronics Co., Ltd.</h3>
+        <p>Phone: 010-8411 1581<br>
+        Address: Beijing Dongcheng District, Andingmen Wai (Shanglongjia Garden) Shanglong West Lane 41 Building 3 Unit 2-2 Room</p>
+        
+        <h3>Shenyang Jinshida Trading Co., Ltd.</h3>
+        <p>Phone: 024-2290 3243, 2481 5181<br>
+        Address: No. 5, Gate 6, Hanlin Road, Shenhe District, Shenyang City</p>
+        
+        <h3>Tianjin Hongqiao District Jinghua Audio Equipment Business Department</h3>
+        <p>Phone: 022-8773 2561<br>
+        Address: First Floor B District No. 10, Tianjin Tianyuan Shopping Mall, Hongqiao District, Tianjin</p>
+        
+        <h3>Qingdao Xinlilai Trading Co., Ltd.</h3>
+        <p>Phone: 0532-8495 5688<br>
+        Address: No. 9-15, Sifang South Road, Sifang District, Qingdao City</p>
+        
+        <h3>Qingdao Xinercheng Trading Co., Ltd.</h3>
+        <p>Phone: 0532-8876 8969<br>
+        Address: No. 14, Yiwu Building, Hubei Road, South District, Qingdao City</p>
+    </div>
+
+    <!-- Page 25: More Service Centers -->
+    <div class="page">
+        <h3>Shijiazhuang Baijia Appliance Wholesale Department</h3>
+        <p>Phone: 0311-8081 5395<br>
+        Address: Building E, District 45, Dahe Electronic City, Xinhua District, Shijiazhuang City</p>
+        
+        <h3>Shijiazhuang Daoren Trading Co., Ltd.</h3>
+        <p>Phone: 0311-8520 9417<br>
+        Address: East of Building D, District 43, Dahe Electronic City, Xinhua District, Shijiazhuang City</p>
+        
+        <h3>Zhengzhou Guolong Electric</h3>
+        <p>Phone: 0371-6693 3627<br>
+        Address: East Gate 2B-061, Electronic Building, Xinzheng Huafu City, New District, Zhengzhou City</p>
+        
+        <h3>Jiangsu Nanjing Bond Trading Co., Ltd.</h3>
+        <p>Phone: 025-8465 0453, 8465 0427<br>
+        Address: Room 1111, International Building, No. 198, Zhongshan East Road, Baixia District, Nanjing City</p>
+        
+        <h3>Yangzhou Tiantian Electronics Headquarters</h3>
+        <p>Phone: 0514-8734 2185<br>
+        Address: No. 62, Ganhe South Road, Guangling District, Yangzhou City</p>
+        
+        <h3>Shanghai Desheng Electronics Technology Co., Ltd.</h3>
+        <p>Phone: 021-5527 0937<br>
+        Address: No. 1-10, 557 Lane, Sanmen Road, Baoshan District, Shanghai</p>
+        
+        <h3>Hangzhou Manbao Trading Co., Ltd.</h3>
+        <p>Phone: 0571-8798 8153<br>
+        Address: No. 67, Baojia Village, Dinglan Street, Jianggan District, Hangzhou City</p>
+        
+        <h3>Fuzhou Desheng Trading Co., Ltd.</h3>
+        <p>Phone: 0591-8760 2798<br>
+        Address: No. 136, Meiping Road, Gulou District, Fuzhou City<br>
+        Century Garden, Building 10, Floor 1, Unit 01, Yalexuan Store, Floor 6</p>
+    </div>
+
+    <!-- Page 26: Final Service Centers -->
+    <div class="page">
+        <h3>Guangzhou Liwan District Huirun Electronics Business</h3>
+        <p>Phone: 020-8194 9777<br>
+        Address: Room 226, Building 2, District 3, North of No. 155, Huangsha Avenue, Guangzhou City</p>
+        
+        <h3>Chengdu Desheng Electronics Trading Co., Ltd.</h3>
+        <p>Phone: 028-8608 3088<br>
+        Address: Chengdu Electronics Market, Chenghuang Temple Electronics Market (No. 11, Huayuan Road)<br>
+        Jinfang Commercial Building B, Block 3, Floor 39</p>
+        
+        <h3>Lanzhou Jinde Electronics Co., Ltd.</h3>
+        <p>Phone: 0931-8613929<br>
+        Address: No. 1720, East Gangdong Road, Chengguan District, Lanzhou City<br>
+        Xinglihua Garden Building 2, Unit 2, Room 102</p>
+        
+        <h3>Xinjiang Urumqi City Jingao Electronics Business Department</h3>
+        <p>Address: First Floor, Building 093, National Trade Building, Urumqi</p>
+        
+        <div style="margin-top: 100px; padding: 20px; border: 1px solid #ccc;">
+            <p style="text-align: center; margin: 0;"><strong>Notice:</strong> Each unit is subject to change, please do not notify separately.<br>
+            Please consult Desheng company customer service department or check Desheng company website.</p>
+        </div>
+    </div>
+
+    <!-- Page 27: Back Cover -->
+    <div class="page" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 200mm;">
+        <div style="text-align: center; margin-top: 100px;">
+            <h1 style="border: none; font-size: 48px; letter-spacing: 3px;">TECSUN</h1>
+        </div>
+        
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h3 style="font-size: 20px; margin-bottom: 30px;">Dongguan Desheng General Electric Manufacturing Co., Ltd.</h3>
+            
+            <p>Address: No. 189, Rongchang Road, Dongcheng District, Dongguan City, Guangdong Province<br>
+            Postal Code: 523071<br>
+            Phone: 0769-2316 7118 &nbsp;&nbsp;&nbsp;&nbsp; Fax: 0769-2316 0700<br>
+            Website: www.tecsun.com.cn &nbsp;&nbsp;&nbsp;&nbsp; E-mail: tecsun@tecsun.com.cn</p>
+            
+            <p style="margin-top: 40px; font-size: 12px;">2021年9月第二版</p>
+        </div>
+    </div>
+</body>
+</html>
