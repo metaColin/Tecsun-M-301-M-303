@@ -78,7 +78,7 @@
   - Long press: Lock/unlock buttons and [tuning] knob
 - **[Frequency/Location/Auto Store]** (Multi-function button):
   - Play/pause, frequency/location, auto store, set clock
-- **[Clock] Button:** Settings, start/cancel clock
+- **[Clock] Button:** Settings, start/cancel alarm
 - **[Tuning] Knob** (Multi-function knob):
   - Select: Frequency, storage location, audio files
   - Adjust clock (hours)
@@ -385,16 +385,16 @@ Continuously short press [Frequency/Location/Auto Store] button twice.
 
 ## 6. Other Settings
 
-### Set Clock:
+### Set Sleep Timer:
 1. Power on
 2. Continuously short press [⬇] button twice, display flashing 🔔
-3. Turn [Tuning] knob to set clock length. (1~120 minutes, 0n selectable. If select 0n, cancel clock.)
+3. Turn [Tuning] knob to set timer length. (1~120 minutes, 0n selectable. If select 0n, cancel timer.)
 4. Short press [Store/Delete] button to confirm, or wait 2 seconds to auto-confirm
-   Display 🔔, clock function enabled
+   Display 🔔, sleep timer function enabled
 
-> **Note:** Clock function only effective when set, automatically cancels after next power on.
+> **Note:** Sleep timer function only effective when set, automatically cancels after next power on.
 
-### Set Clock (This device uses 24-hour format)
+### Set Clock Time (24-hour format):
 1. Power off
 2. Long press [Frequency/Location/Auto Store] button, clock "hour" position flashes
 3. Turn [Tuning] knob to adjust "hour"
