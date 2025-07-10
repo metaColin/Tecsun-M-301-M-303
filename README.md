@@ -13,16 +13,16 @@
 ## Package Contents
 
 ### M-301 Package Contents:
-- M-301 Radio .......................................... 1
-- E-50 Type (50Ω) Stereo Earphones .................... 1
-- USB Micro Type-B Data Cable ......................... 1
-- User Manual/After-sales Service Certificate .......... 1
+- M-301 Radio .................................................. 1
+- E-50 Type (50Ω) Stereo Earphones ............................. 1
+- USB Micro Type-B Data Cable .................................. 1
+- User Manual/After-sales Service Certificate .................. 1
 
 ### M-303 Package Contents:
-- M-303 Radio .......................................... 1
-- E-50 Type (50Ω) Stereo Earphones .................... 1
-- USB Micro Type-B Data Cable ......................... 1
-- User Manual/After-sales Service Certificate .......... 1
+- M-303 Radio .................................................. 1
+- E-50 Type (50Ω) Stereo Earphones ............................. 1
+- USB Micro Type-B Data Cable .................................. 1
+- User Manual/After-sales Service Certificate .................. 1
 
 ---
 
@@ -65,7 +65,7 @@
 
 - **[Loop Mode] Button:** FM frequency range setting, loop mode, power on/off language prompt
 - **[Store/Delete] Button**
-- **[Love/Menu] Button:** Love track function for "Love Festival" storage/retrieval, recording operation, audio file extraction, set clock
+- **[Love/Menu] Button:** Love track function for "Favorites" storage/retrieval, recording operation, audio file extraction, set clock
 - **[Music/Recording Library] Button:** Switch music files/recording files
 
 ### Right Side
@@ -216,7 +216,7 @@ Display shows top left corner flashing P0C], indicates stored frequency being au
 
 During listening, short press [Love/Menu] button to jump to "regular listening frequency" (display shows ♡). Short press [Love/Menu] button again to return to original listening frequency (♡ disappears).
 
-> **Note:** "Love Festival" can only set one frequency and one audio track, set another replaces original.
+> **Note:** "Favorites" can only set one frequency and one audio track, set another replaces original.
 
 When using earphones for radio, display shows (♫♫), indicates radio broadcasting stereo. If radio uses mono broadcast, or signal weak, stereo broadcast naturally switches to mono broadcast, but signal weak, (♫♫) won't display. When using speaker for radio, defaults to mono, (♫♫) won't display.
 
@@ -297,23 +297,23 @@ Language prompt "TF card mode" or "Recording playback"
 ### Select Audio Fragment for Repeat Play
 Exit select play state: Short press [Loop Mode] button
 
-### Set Audio as "Love Festival":
+### Set Audio as "Favorites":
 1. Select audio
 2. Short press [Store/Delete] button, audio track number flashes
 3. Short press [Love/Menu] button, ♡ symbol flashes
 4. Short press [Store/Delete] button, ♡ disappears, selected audio set
 
-### Extract "Love Festival":
+### Extract "Favorites":
 In TF card mode, short press [Love/Menu] button
 
-If "Love Festival" set in player, display shows ♡, audio track number in file folder.
+If "Favorites" set in player, display shows ♡, audio track number in file folder.
 
-### Exit "Love Festival":
+### Exit "Favorites":
 Short press [Love/Menu] button
 
 Return to previously played audio (♡ symbol disappears).
 
-> **Note:** Audio stored in recording library cannot be set as "Love Festival".
+> **Note:** Audio stored in recording library cannot be set as "Favorites".
 
 ### Recording Audio Playback:
 1. Long press [Music/Recording Library] button, player sends "Recording playback" prompt and plays recording files
@@ -533,9 +533,9 @@ A: Bluetooth recording, 1GB can store recording about 16 hours.
 Radio recording, 1GB can store recording about 25 hours.
 Microphone recording, 1GB can store recording about 35 hours.
 
-**Q: Can recording files be set as "Love Festival"?**
+**Q: Can recording files be set as "Favorites"?**
 A: No.
-If want a recording file set as "Love Festival", first use computer to move this recording file from recording folder, then can set this recording audio as "Love Festival".
+If want a recording file set as "Favorites", first use computer to move this recording file from recording folder, then can set this recording audio as "Favorites".
 
 **Q: Why button/[Tuning] knob lock function ineffective?**
 A: Because player handles file selection state. Short press [Music/Recording Library] button, exit file selection state.
