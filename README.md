@@ -1,6 +1,6 @@
 # Tecsun M-301/M-303 User Manual
 
-![Tecsun M-301 and M-303 radios](cover-radios.png)
+![Tecsun M-301 and M-303 radios](img/cover-radios.png)
 
 ## FM • Bluetooth Receiver • Music Player
 
@@ -49,7 +49,7 @@
 
 ### Left Side
 
-![Left side controls](left-side-view-google-translated.png)
+![Left side controls](img/left-side-view-google-translated.png)
 
 - **Function Switch:**
   - OFF: Power off
@@ -61,7 +61,7 @@
 
 ### Front Panel
 
-![Tecsun M-303 front view](front-view-google-translated.png)
+![Tecsun M-303 front view](img/front-view-google-translated.png)
 
 - **[Loop Mode] Button:** FM frequency range setting, loop mode, power on/off language prompt
 - **[MEM./DEL.] Button** (Memory/Delete)
@@ -70,7 +70,7 @@
 
 ### Right Side
 
-![Right side controls](right-side-view-google-translated.png)
+![Right side controls](img/right-side-view-google-translated.png)
 
 - **[Mic]:** Microphone (on front panel)
 - **[Display Mode] Button:**
@@ -92,7 +92,7 @@
 
 ## Display Function Instructions
 
-![LCD Display](lcd-display-google-translated.png)
+![LCD Display](img/lcd-display-google-translated.png)
 
 The LCD display includes the following indicators:
 
@@ -477,7 +477,7 @@ After full charge, battery symbol shows full (all segments lit), charging indica
 
 ### Hazardous Substances in Products Names and Content
 
-![Hazardous Substances Table](hazardous-substances-table-google-translated.png)
+![Hazardous Substances Table](img/hazardous-substances-table-google-translated.png)
 
 **Notes:**
 1. "O" indicates hazardous substance content in all homogeneous materials below SJ/T11363-2006 standard limit requirements.
