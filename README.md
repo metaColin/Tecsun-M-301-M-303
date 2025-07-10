@@ -84,7 +84,7 @@
   - Adjust clock (hours)
 - **System Reset Switch** (inside hole)
 - **[Storage Card] Slot** (Supports up to 128GB TF card)
-- **[◀] Button** (Multi-function knob):
+- **[◀] Knob** (Volume/Multi-function knob):
   - Adjust volume, select audio files
   - Adjust clock (minutes)
 
@@ -148,7 +148,7 @@ Connect to 32Ω ~ 150Ω stereo earphones.
 
 ## 1. Radio
 
-> **Note:** This device operates FM radio antenna wirelessly.
+> **Note:** This device has a built-in FM antenna.
 
 ### Frequency Range Setting (operates in OFF mode):
 1. Long press [Loop Mode] button, then repeatedly short press (or turn [Tuning] knob) to select frequency range. Display shows 64, 76, 87, 88, indicating frequency ranges: 64~108MHz, 76~108MHz, 87~108MHz, 88~108MHz
@@ -271,9 +271,9 @@ After stopping recording, short press [Recording/Pause/Stop] button
 Supports 16bit/44.1k FLAC/WAV/WMA/APE and MP3 format audio files. Player supports single track repeat.
 
 1. Insert TF card with audio into [Storage Card] slot
-2. Turn [Function Switch] to "TF" position. Display shows [ᐊ], starts playing audio in card
+2. Turn [Function Switch] to "TF" position. Display shows ▶, starts playing audio in card
 
-> **Note:** If TF card has no audio files, or card audio files not supported format, display shows -ПО-.
+> **Note:** If TF card has no audio files, or card audio files not supported format, display shows -NO-.
 
 ### Switch Music/Recording Files Library
 Long press [FOLDER] button
@@ -282,7 +282,7 @@ Language prompt "TF card mode" or "Recording playback"
 
 ### Playback Control:
 - **Select Files:** (If no files, ignored)
-  1. Short press [FOLDER] button to enter file selection state, displays the file's audio track number and file number, e.g.: 28 月 01.
+  1. Short press [FOLDER] button to enter file selection state, displays the file's audio track number and file number, e.g.: 28 A 01.
   2. Turn [◀] (volume) knob to select file
   3. Short press [FOLDER] button to exit file selection state
 - **Select Audio:** Turn [Tuning] knob
@@ -371,12 +371,12 @@ Return to previously played audio (♡ symbol disappears).
 - **Pause/Play:** Short press [Frequency/Location/Auto Store] button
 
 ### Hands-free Calling
-If paired with Bluetooth device is mobile phone, when call comes in, player stops playing audio and reports phone number via voice. Display shows HF and phone symbol 📞.
+If paired with Bluetooth device is mobile phone, when call comes in, player stops playing audio and reports phone number via voice. Display shows HF and phone icon.
 
 > **Note:** This device doesn't support WeChat voice calls.
 
-- **Answer call:** Short press [☎] button
-- **End call:** Short press [☎] button
+- **Answer call:** Short press [Frequency/Location/Auto Store] button
+- **End call:** Short press [Frequency/Location/Auto Store] button
 
 ### Cancel Pairing:
 Continuously short press [Frequency/Location/Auto Store] button twice.
@@ -387,10 +387,10 @@ Continuously short press [Frequency/Location/Auto Store] button twice.
 
 ### Set Sleep Timer:
 1. Power on
-2. Continuously short press [⬇] button twice, display flashing 🔔
+2. Continuously short press [⬇] button twice, display shows flashing bell icon
 3. Turn [Tuning] knob to set timer length (1~120 minutes, or On to cancel timer)
 4. Short press [MEM./DEL.] button to confirm, or wait 2 seconds to auto-confirm
-   Display 🔔, sleep timer function enabled
+   Display shows bell icon, sleep timer function enabled
 
 > **Note:** Sleep timer function only effective when set, automatically cancels after next power on.
 
@@ -408,7 +408,7 @@ Continuously short press [Frequency/Location/Auto Store] button twice.
    Turn [◀] knob to adjust "minute"
 4. Short press [Clock] button to confirm, display shows flashing alarm clock
 5. Turn [Tuning] knob to set alarm clock ring time (1~60 minutes)
-6. Short press [Clock] button to confirm. Display alarm clock symbol 🔔, alarm clock starts
+6. Short press [Clock] button to confirm. Display shows alarm bell icon, alarm clock starts
 
 ### Alarm Clock Mode
 This device alarm has "Radio Alarm" and "Music Alarm" two modes to choose
@@ -418,8 +418,8 @@ This device alarm has "Radio Alarm" and "Music Alarm" two modes to choose
 2. Select alarm radio frequency
 3. Select alarm volume
 4. Short press [MEM./DEL.] button, channel number flashes
-5. Short press [Clock] button, 🔔 flashes
-6. Short press [MEM./DEL.] button, 🔔 stops flashing immediately
+5. Short press [Clock] button, bell icon flashes
+6. Short press [MEM./DEL.] button, bell icon stops flashing immediately
 
 #### Music Alarm:
 1. Insert TF card with music files
@@ -427,13 +427,13 @@ This device alarm has "Radio Alarm" and "Music Alarm" two modes to choose
 3. Select first music file as alarm music
 4. Select alarm volume
 5. Short press [MEM./DEL.] button, file number flashes
-6. Short press [Clock] button, 🔔 and 🎵 flash
-7. Short press [MEM./DEL.] button, 🔔 and 🎵 stop flashing immediately
+6. Short press [Clock] button, bell and music icons flash
+7. Short press [MEM./DEL.] button, bell and music icons stop flashing immediately
 
 > **Note:** After alarm, if short press [⬇] button, return to original state.
 
 ### Stop Alarm Function
-Short press [Clock] button, 🔔 disappears immediately.
+Short press [Clock] button, bell icon disappears immediately.
 
 ### Display Mode
 Repeatedly short press [Display Mode] button.
@@ -441,8 +441,8 @@ Display shows current time, alarm clock time, temperature, frequency (or audio t
 
 ### Button and [Tuning] Knob Lock and Unlock
 Long press [Display Mode] button
-- Display 🔒, button and [Tuning] knob function locked
-- 🔒 disappears, button and [Tuning] knob function restored
+- Display shows lock icon, buttons and [Tuning] knob locked
+- Lock icon disappears, buttons and [Tuning] knob unlocked
 
 ### System Reset:
 If "crash" phenomenon occurs, use toothpick or paper clip to press [System Reset Switch], system will reset.
@@ -451,11 +451,11 @@ If "crash" phenomenon occurs, use toothpick or paper clip to press [System Reset
 
 ## 7. Charging
 
-When battery symbol displays 🔋, indicates low battery, please charge promptly.
+When battery symbol shows low (empty battery icon), indicates low battery, please charge promptly.
 
 Connect USB Micro Type-B cable to 5V DC charger into device side USB socket, can charge built-in polymer lithium battery. During charging, display top shows next charging time timer, charging indicator "Charge" flashes.
 
-After full charge, battery symbol displays 🔋, charging indicator "Charge" stops flashing.
+After full charge, battery symbol shows full (all segments lit), charging indicator "Charge" stops flashing.
 
 > **Note!** Power adapters used for charging/power supply should be purchased and used by users, obtain CCC certification, and meet standard required power adapters.
 
@@ -504,7 +504,7 @@ A: Two possibilities:
 1. Excessive power consumption during playback, auto power off. Please charge promptly.
 2. Used timer shutdown function once, radio auto powered off. Press function switch, can restore.
 
-**Q: Why after inserting TF card, display shows -ПО-?**
+**Q: Why after inserting TF card, display shows -NO-?**
 A: Three possibilities:
 1. No audio files in card.
 2. This device doesn't support card audio file format.
@@ -520,7 +520,7 @@ A: No. Only supports single file loop music playback.
 A: This device doesn't support multi-subfolder files.
 
 **Q: What happens to favorite music settings after changing TF card?**
-A: After changing TF card, or deleting music from card, original settings become ineffective.
+A: After changing TF card, or deleting music from card, original settings no longer work.
 
 **Q: Why press button, no response (cannot record)?**
 A: TF card inserted? No TF card, recording device won't work.
@@ -528,16 +528,16 @@ A: TF card inserted? No TF card, recording device won't work.
 **Q: Recording time length limited?**
 A: Default each recording file time maximum 1 hour. If recording exceeds 1 hour, device automatically generates another recording file.
 
-**Q: TF card 1GB capacity, can store recording how long?**
+**Q: How long can a 1GB TF card store recordings?**
 A: Bluetooth recording, 1GB can store recording about 16 hours.
 Radio recording, 1GB can store recording about 25 hours.
 Microphone recording, 1GB can store recording about 35 hours.
 
 **Q: Can recording files be set as "Favorites"?**
 A: No.
-If want a recording file set as "Favorites", first use computer to move this recording file from recording folder, then can set this recording audio as "Favorites".
+If you want a recording file set as "Favorites", first use computer to move this recording file from recording folder, then you can set this recording audio as "Favorites".
 
-**Q: Why button/[Tuning] knob lock function ineffective?**
+**Q: Why is the [Tuning] knob lock function not working?**
 A: Because player handles file selection state. Short press [FOLDER] button, exit file selection state.
 
 ---
@@ -690,4 +690,4 @@ Postal Code: 523071
 Phone: 0769-2316 7118     Fax: 0769-2316 0700
 Website: www.tecsun.com.cn     E-mail: tecsun@tecsun.com.cn
 
-2021年9月第二版
+September 2021, Second Edition

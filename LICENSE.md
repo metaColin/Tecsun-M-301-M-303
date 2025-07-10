@@ -2,6 +2,14 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 This translation is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
+DISCLAIMER:
+THIS IS AN AMATEUR TRANSLATION PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF ACCURACY, 
+COMPLETENESS, OR FITNESS FOR ANY PARTICULAR PURPOSE. THE TRANSLATOR ASSUMES 
+NO LIABILITY FOR ANY ERRORS, OMISSIONS, OR INACCURACIES IN THE TRANSLATION, 
+OR FOR ANY DAMAGES ARISING FROM THE USE OF THIS TRANSLATION. USERS SHOULD 
+VERIFY CRITICAL INFORMATION WITH THE ORIGINAL DOCUMENTATION.
+
 You are free to:
 - Share — copy and redistribute the material in any medium or format
 - Adapt — remix, transform, and build upon the material
@@ -14,18 +22,6 @@ Under the following terms:
 For commercial use or alternative licensing, please open an issue in this repository.
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-=======================================================================
-
-Creative Commons Corporation ("Creative Commons") is not a law firm and
-does not provide legal services or legal advice. Distribution of
-Creative Commons public licenses does not create a lawyer-client or
-other relationship. Creative Commons makes its licenses and related
-information available on an "as-is" basis. Creative Commons gives no
-warranties regarding its licenses, any material licensed under their
-terms and conditions, or any related information. Creative Commons
-disclaims all liability for damages resulting from their use to the
-fullest extent possible.
 
 The full legal text of this license is available at:
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
